@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a class="link-img" href="index.html"><img id="logo-image" src="images/Logo (1).png" alt="logo"></a>
+                <div id="container-search">
+                    <input id="search" type="text" placeholder="O que vc está buscando?" maxlength="30">
+                    <i class="fa-solid fa-magnifying-glass" style="color: #596780;" id="iconsearch"></i>
+                    <i class="fa-solid fa-sort" style="color: #596780;" id="iconfilter"></i>
+                </div>
+                <div id="navbar">
+                    <a class="link-img" href="index.html"><img class="icons" src="images/liked-icon.png"></a>
+                    <a class="link-img" href="index.html"><img class="icons" src="images/notifications-icon.png"></a>
+                    <a class="link-img" href="index.html"><img class="icons" src="images/settings-icon.png"></a>
+                    <a class="link-img" href="index.html"><img class="icons" src="images/perfil-icon.png"></a>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <section id="ads">
+                <div id="ad1">
+                    <div class="content">
+                        <img class="image-ad" src="images/BG1.png">
+                        <div class="text-ads">
+                            <h1 class="text-ads1">A Melhor Plataforma para se Alugar Carros</h1>
+                            <h2 class="text-ads2">Facilidade de alugar um carro de forma segura e confiável. Claro, a um preço baixo.</h2>
+                            <button id="rent-button">Alugar</button>
+                        </div>
+                    </div>
+                </div>
+                <div id="ad2">
+                    <div class="content2">
+                        <img class="image-ad" src="images/BG2.png">
+                        <div class="text-ads">
+                            <h1 class="text-ads1">Fácil e Econômico</h1>
+                            <h2 class="text-ads2">Oferecendo serviços de aluguel de carros baratos e instalações seguras e muito confortáveis.</h2>
+                            <button id="rent-button2">Alugar</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="data">
+                <div id="data1">
+                    <div id="title">
+                        <img class="titlee" src="images/mark.png" alt="">
+                        <h1 id="title-text" class="titlee">Retirada</h1>
+                    </div>
+                    <span id="retirada">
+                        <div class="local">
+                            <h1>Local</h1>
+                            <div class="seleção">
+                                <p>Selecione sua Cidade</p>
+                                <i id="seta-baixo" class="fa-solid fa-sort-down" style="color: #90a3bf;"></i>
+                            </div>
+                        </div>
+                        <div class="data">
+                            <h1>Data</h1>
+                            <div class="seleção">
+                                <p>Escolha uma Data</p>
+                                <i id="seta-baixo" class="fa-solid fa-sort-down" style="color: #90a3bf;"></i>
+                            </div>
+                        </div>
+                        <div class="hora">
+                            <h1>Hora</h1>
+                            <div class="seleção">
+                                <p>Escolha um Horário</p>
+                                <i id="seta-baixo" class="fa-solid fa-sort-down" style="color: #90a3bf;"></i>
+                            </div>
+                        </div>
+                    </span>
+                </div>
+                <div id="center">
+                    <div id="swap-center">
+                        <button id="swap"><i class="fa-solid fa-rotate fa-xl" style="color: #ffffff;"></i></button>
+                    </div>
+                </div>
+                <div id="data2">
+                    <div id="title2">
+                        <img class="titleee" src="images/mark.png" alt="">
+                        <h1 id="title-text2" class="titlee">Devolução</h1><br>
+                    </div>
+                        <span id="devolucao">
+                            <div class="local">
+                                <h1>Local</h1>
+                                <div class="seleção">
+                                    <p>Selecione sua Cidade</p>
+                                    <i id="seta-baixo" class="fa-solid fa-sort-down" style="color: #90a3bf;"></i>
+                                </div>
+                            </div>
+                            <div class="data">
+                                <h1>Data</h1>
+                                <div class="seleção">
+                                    <p>Escolha uma Data</p>
+                                    <i id="seta-baixo" class="fa-solid fa-sort-down" style="color: #90a3bf;"></i>
+                                </div>
+                            </div>
+                            <div class="hora">
+                                <h1>Hora</h1>
+                                <div class="seleção">
+                                    <p>Escolha um Horário</p>
+                                    <i id="seta-baixo" class="fa-solid fa-sort-down" style="color: #90a3bf;"></i>
+                                </div>
+                            </div>
+                        </span>
+                </div>
+            </section>
+            <h1 id="popular">Carros Populares</h1>
+            <section class="car-list">
+                <div class="car-card_box">
+                    <div class="car-card">
+                        <div class="card-card_grid">
+                            <div class="car-name">
+                                <h1 class="car-name_text">Koenisegg</h1>
+                                <i class="fa-solid fa-heart car-name_icon" style="color: #ed3f3f;"></i>
+                            </div>
+                            <div class="car-image">
+                                <img src="images/car.png">
+                            </div>
+                            <div class="details">
+                                <div class="icons-container">
+                                    <div class="fuel">
+                                        <i class="fa-solid fa-gas-pump" style="color: #90a3bf;"></i>
+                                        <p>90L</p>
+                                    </div>
+                                    <div class="gear">
+                                        <i class="fa-solid fa-circle-notch" style="color: #90a3bf;"></i>
+                                        <p>Manual</p>
+                                    </div>
+                                    <div class="peoples">
+                                        <i class="fa-solid fa-people-group" style="color: #90a3bf;"></i>
+                                        <p>2P</p>
+                                    </div>
+                                </div>
+                                <div class="price">
+                                    <div class="price-car">
+                                        <p id="bold">R$180,00/</p><p id="no-bold">dia</p>
+                                    </div>
+                                    <div class="buttonm">
+                                        <button class="rent-now">Alugar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="car-card_box">
+                    <div class="car-card">
+                        <div class="card-card_grid">
+                            <div class="car-name">
+                                <h1 class="car-name_text">Nissan GT-R</h1>
+                                <i class="fa-solid fa-heart car-name_icon" style="color: #ed3f3f;"></i>
+                            </div>
+                            <div class="car-image">
+                                <img src="images/car (1).png">
+                            </div>
+                            <div class="details">
+                                <div class="icons-container">
+                                    <div class="fuel">
+                                        <i class="fa-solid fa-gas-pump" style="color: #90a3bf;"></i>
+                                        <p>80L</p>
+                                    </div>
+                                    <div class="gear">
+                                        <i class="fa-solid fa-circle-notch" style="color: #90a3bf;"></i>
+                                        <p>Manual</p>
+                                    </div>
+                                    <div class="peoples">
+                                        <i class="fa-solid fa-people-group" style="color: #90a3bf;"></i>
+                                        <p>2P</p>
+                                    </div>
+                                </div>
+                                <div class="price">
+                                    <div class="price-car">
+                                        <p id="bold">R$150,00/</p><p id="no-bold">dia</p>
+                                    </div>
+                                    <div class="buttonm">
+                                        <button class="rent-now">Alugar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="car-card_box">
+                    <div class="car-card">
+                        <div class="card-card_grid">
+                            <div class="car-name">
+                                <h1 class="car-name_text">Rolls-Royce</h1>
+                                <i class="fa-solid fa-heart car-name_icon" style="color: #ed3f3f;"></i>
+                            </div>
+                            <div class="car-image">
+                                <img src="images/Car (2).png">
+                            </div>
+                            <div class="details">
+                                <div class="icons-container">
+                                    <div class="fuel">
+                                        <i class="fa-solid fa-gas-pump" style="color: #90a3bf;"></i>
+                                        <p>70L</p>
+                                    </div>
+                                    <div class="gear">
+                                        <i class="fa-solid fa-circle-notch" style="color: #90a3bf;"></i>
+                                        <p>Manual</p>
+                                    </div>
+                                    <div class="peoples">
+                                        <i class="fa-solid fa-people-group" style="color: #90a3bf;"></i>
+                                        <p>4P</p>
+                                    </div>
+                                </div>
+                                <div class="price">
+                                    <div class="price-car">
+                                        <p id="bold">R$165,00/</p><p id="no-bold">dia</p>
+                                    </div>
+                                    <div class="buttonm">
+                                        <button class="rent-now">Alugar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="car-card4">
+                    <div class="car-card">
+                        <div class="card-card_grid">
+                            <div class="car-name">
+                                <h1 class="car-name_text">CR-V</h1>
+                                <i class="fa-solid fa-heart car-name_icon" style="color: #ed3f3f;"></i>
+                            </div>
+                            <div class="car-image">
+                                <img src="images/Car (3).png">
+                            </div>
+                            <div class="details">
+                                <div class="icons-container">
+                                    <div class="fuel">
+                                        <i class="fa-solid fa-gas-pump" style="color: #90a3bf;"></i>
+                                        <p>80L</p>
+                                    </div>
+                                    <div class="gear">
+                                        <i class="fa-solid fa-circle-notch" style="color: #90a3bf;"></i>
+                                        <p>Manual</p>
+                                    </div>
+                                    <div class="peoples">
+                                        <i class="fa-solid fa-people-group" style="color: #90a3bf;"></i>
+                                        <p>6P</p>
+                                    </div>
+                                </div>
+                                <div class="price">
+                                    <div class="price-car">
+                                        <p id="bold">R$140,00/</p><p id="no-bold">dia</p>
+                                    </div>
+                                    <div class="buttonm">
+                                        <button class="rent-now">Alugar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+        </main>
+
+        <script src="https://kit.fontawesome.com/8fb53f0ed2.js" crossorigin="anonymous"></script>
+    </body>
+</html>
+
